@@ -1,4 +1,4 @@
-# 📘 Aula 09 — Django (SENAC 2026)
+# 📘 Trabalho Quiz - Django (SENAC 2026)
 
 Repositório da **Aula 09** da disciplina no SENAC - Programação com Python (2026), com foco em introdução ao desenvolvimento web utilizando **Django**.
 
@@ -79,66 +79,12 @@ Se houver erro de execução de script:
 
 ---
 
-## 📦 3. Instalar o Django
+## 📦 3. Instalar pacotes
 
 ```powershell
 pip install django
+pip install reportlab
 ```
-
-Verifique a instalação:
-
-```powershell
-django-admin --version
-```
-
----
-
-## 🏗️ 4. Criar Projeto Django
-
-```powershell
-django-admin startproject setup .
-```
-
-> O `.` evita a criação de uma pasta adicional, mantendo a estrutura mais limpa.
-
----
-
-## 📁 5. Criar App Principal
-
-```powershell
-python manage.py startapp core
-```
-
----
-
-## 🌐 6. Executar o Servidor
-
-```powershell
-python manage.py runserver
-```
-
-Acesse no navegador:
-
-```
-http://127.0.0.1:8000/
-```
-
----
-
-## 🛑 Encerrar o Servidor
-
-```
-Ctrl + C
-```
-
----
-
-## 🔚 Sair do Ambiente Virtual
-
-```powershell
-deactivate
-```
-
 ---
 
 ## 🔄 Gerar Migrações
@@ -153,27 +99,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
----
-
-## 👤 Criar Superusuário
-
-```powershell
-python manage.py createsuperuser
+## Aplicar dados
 ```
-
-Esse usuário permitirá acesso ao painel administrativo do Django.
-
----
-
-# 📝 Instruções para Criar um Formulário
-
-Siga os passos abaixo para implementar um formulário no projeto:
-
-## 1. Criar o formulário
-- Crie o arquivo `.html` do formulário na pasta apropriada do projeto.
-
-## 2. Definir a lógica
-- No arquivo `views.py` do app em que você está trabalhando, implemente a lógica necessária para processar o formulário.
-
-## 3. Definir a rota
-- Configure a rota no arquivo `setup/urls.py`, garantindo que o formulário esteja acessível pela URL correta.
+python manage.py loaddata questoes_exemplo questoes_prova
+```
