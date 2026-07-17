@@ -1,0 +1,36 @@
+{% extends 'quiz/base_quiz.html' %}
+
+{% block conteudo %}
+<div class="card shadow-sm mb-4">
+    <div class="card-body p-4 text-center">
+        <h2 class="card-title">Prova finalizada! 🎉</h2>
+        <p class="text-muted mb-1">Aluno: <strong>{{ prova.aluno }}</strong></p>
+        <p class="text-muted">
+            Suas respostas foram registradas. Baixe o PDF e envie para o
+            professor — a correção não é feita pelo sistema.
+        </p>
+
+        <a href="{% url 'quiz_pdf' prova.id %}" class="btn btn-success">📄 Baixar PDF</a>
+        <a href="{% url 'quiz_inicio' %}" class="btn btn-outline-secondary">Nova prova</a>
+    </div>
+</div>
+
+<table class="table table-hover bg-white shadow-sm">
+    <thead class="table-dark">
+        <tr>
+            <th>#</th>
+            <th>Questão</th>
+            <th>Sua resposta</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in itens %}
+        <tr>
+            <td>{{ item.ordem }}</td>
+            <td>{{ item.questao.enunciado|truncatechars:60 }}</td>
+            <td class="text-center">{{ item.resposta|default:'—'|truncatechars:40 }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

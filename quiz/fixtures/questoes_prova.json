@@ -1,0 +1,1064 @@
+[
+  {
+    "model": "quiz.questao",
+    "pk": 101,
+    "fields": {
+      "categoria": "Projeto",
+      "tipo": "DI",
+      "enunciado": "Qual foi o objetivo principal do projeto?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 102,
+    "fields": {
+      "categoria": "Projeto",
+      "tipo": "DI",
+      "enunciado": "Qual problema ele resolve?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 103,
+    "fields": {
+      "categoria": "Projeto",
+      "tipo": "DI",
+      "enunciado": "Quais funcionalidades vocês conseguiram implementar?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 104,
+    "fields": {
+      "categoria": "Projeto",
+      "tipo": "DI",
+      "enunciado": "O que ficou de fora e por quê?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 105,
+    "fields": {
+      "categoria": "Projeto",
+      "tipo": "DI",
+      "enunciado": "Se tivessem mais uma semana, o que implementariam?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 106,
+    "fields": {
+      "categoria": "Arquitetura Django",
+      "tipo": "DI",
+      "enunciado": "Explique como o Django segue o padrão MVC (ou MTV)."
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 107,
+    "fields": {
+      "categoria": "Arquitetura Django",
+      "tipo": "DI",
+      "enunciado": "Qual a função de um Model?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 108,
+    "fields": {
+      "categoria": "Arquitetura Django",
+      "tipo": "DI",
+      "enunciado": "Qual a responsabilidade de uma View?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 109,
+    "fields": {
+      "categoria": "Arquitetura Django",
+      "tipo": "DI",
+      "enunciado": "O que fica dentro dos Templates?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 110,
+    "fields": {
+      "categoria": "Arquitetura Django",
+      "tipo": "DI",
+      "enunciado": "O que são URLs no Django?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 111,
+    "fields": {
+      "categoria": "Arquitetura Django",
+      "tipo": "DI",
+      "enunciado": "Como uma requisição percorre o sistema até renderizar uma página?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 112,
+    "fields": {
+      "categoria": "Arquitetura Django",
+      "tipo": "DI",
+      "enunciado": "Por que separar responsabilidades é importante?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 113,
+    "fields": {
+      "categoria": "Modelagem",
+      "tipo": "DI",
+      "enunciado": "Quais entidades foram criadas?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 114,
+    "fields": {
+      "categoria": "Modelagem",
+      "tipo": "DI",
+      "enunciado": "Como ficou o relacionamento entre Produto e Categoria?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 115,
+    "fields": {
+      "categoria": "Modelagem",
+      "tipo": "DI",
+      "enunciado": "Por que utilizar ForeignKey?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 116,
+    "fields": {
+      "categoria": "Modelagem",
+      "tipo": "DI",
+      "enunciado": "Por que Cliente e Administrador podem ser o mesmo modelo User?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 117,
+    "fields": {
+      "categoria": "Modelagem",
+      "tipo": "DI",
+      "enunciado": "Que tipo de relacionamento existe entre Pedido e Produto?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 118,
+    "fields": {
+      "categoria": "Modelagem",
+      "tipo": "DI",
+      "enunciado": "Vocês utilizaram alguma tabela intermediária?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 119,
+    "fields": {
+      "categoria": "Modelagem",
+      "tipo": "DI",
+      "enunciado": "Qual seria a vantagem de usar ManyToMany com through?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 120,
+    "fields": {
+      "categoria": "Banco de Dados",
+      "tipo": "DI",
+      "enunciado": "Quais campos existem na tabela Produto?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 121,
+    "fields": {
+      "categoria": "Banco de Dados",
+      "tipo": "DI",
+      "enunciado": "Como impedir preço negativo?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 122,
+    "fields": {
+      "categoria": "Banco de Dados",
+      "tipo": "DI",
+      "enunciado": "Como impedir categorias duplicadas?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 123,
+    "fields": {
+      "categoria": "Banco de Dados",
+      "tipo": "DI",
+      "enunciado": "Como o Django cria as tabelas?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 124,
+    "fields": {
+      "categoria": "Banco de Dados",
+      "tipo": "DI",
+      "enunciado": "O que são migrations?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 125,
+    "fields": {
+      "categoria": "Banco de Dados",
+      "tipo": "DI",
+      "enunciado": "Qual a diferença entre makemigrations e migrate?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 126,
+    "fields": {
+      "categoria": "Banco de Dados",
+      "tipo": "DI",
+      "enunciado": "O que acontece se alguém apagar uma Categoria que possui Produtos?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 127,
+    "fields": {
+      "categoria": "CRUD",
+      "tipo": "DI",
+      "enunciado": "Explique como funciona o cadastro de um produto."
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 128,
+    "fields": {
+      "categoria": "CRUD",
+      "tipo": "DI",
+      "enunciado": "Como é feita a edição?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 129,
+    "fields": {
+      "categoria": "CRUD",
+      "tipo": "DI",
+      "enunciado": "Como vocês localizaram o produto para editar?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 130,
+    "fields": {
+      "categoria": "CRUD",
+      "tipo": "DI",
+      "enunciado": "Como ocorre a exclusão?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 131,
+    "fields": {
+      "categoria": "CRUD",
+      "tipo": "DI",
+      "enunciado": "O que acontece se o ID informado não existir?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 132,
+    "fields": {
+      "categoria": "CRUD",
+      "tipo": "DI",
+      "enunciado": "Como vocês exibem a lista de produtos?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 133,
+    "fields": {
+      "categoria": "Rotas",
+      "tipo": "DI",
+      "enunciado": "Mostre uma rota dinâmica."
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 134,
+    "fields": {
+      "categoria": "Rotas",
+      "tipo": "DI",
+      "enunciado": "Qual a diferença entre GET e POST?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 135,
+    "fields": {
+      "categoria": "Rotas",
+      "tipo": "DI",
+      "enunciado": "Quando utilizar cada método?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 136,
+    "fields": {
+      "categoria": "Rotas",
+      "tipo": "DI",
+      "enunciado": "Por que não utilizar GET para cadastrar?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 137,
+    "fields": {
+      "categoria": "Templates",
+      "tipo": "DI",
+      "enunciado": "O que é herança de templates?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 138,
+    "fields": {
+      "categoria": "Templates",
+      "tipo": "DI",
+      "enunciado": "Por que utilizar um base.html?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 139,
+    "fields": {
+      "categoria": "Templates",
+      "tipo": "DI",
+      "enunciado": "Como os dados chegam do backend ao HTML?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 140,
+    "fields": {
+      "categoria": "Templates",
+      "tipo": "DI",
+      "enunciado": "Qual a vantagem do template engine do Django?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 141,
+    "fields": {
+      "categoria": "Forms",
+      "tipo": "DI",
+      "enunciado": "Como os dados do formulário chegam até a View?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 142,
+    "fields": {
+      "categoria": "Forms",
+      "tipo": "DI",
+      "enunciado": "Como acessar um campo enviado via POST?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 143,
+    "fields": {
+      "categoria": "Forms",
+      "tipo": "DI",
+      "enunciado": "Vocês utilizaram Django Forms ou HTML puro?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 144,
+    "fields": {
+      "categoria": "Forms",
+      "tipo": "DI",
+      "enunciado": "Quais as vantagens do Django Forms?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 145,
+    "fields": {
+      "categoria": "Autenticação",
+      "tipo": "DI",
+      "enunciado": "Como o sistema identifica um usuário logado?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 146,
+    "fields": {
+      "categoria": "Autenticação",
+      "tipo": "DI",
+      "enunciado": "Como vocês verificam se o usuário está autenticado?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 147,
+    "fields": {
+      "categoria": "Autenticação",
+      "tipo": "DI",
+      "enunciado": "Como esconder o estoque para visitantes?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 148,
+    "fields": {
+      "categoria": "Autenticação",
+      "tipo": "DI",
+      "enunciado": "Qual a diferença entre autenticação e autorização?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 149,
+    "fields": {
+      "categoria": "Checkout",
+      "tipo": "DI",
+      "enunciado": "Como o usuário escolhe vários produtos?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 150,
+    "fields": {
+      "categoria": "Checkout",
+      "tipo": "DI",
+      "enunciado": "Onde as quantidades ficam armazenadas antes do checkout?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 151,
+    "fields": {
+      "categoria": "Checkout",
+      "tipo": "DI",
+      "enunciado": "Como o valor total é calculado?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 152,
+    "fields": {
+      "categoria": "Checkout",
+      "tipo": "DI",
+      "enunciado": "O que acontece ao confirmar o pedido?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 153,
+    "fields": {
+      "categoria": "Checkout",
+      "tipo": "DI",
+      "enunciado": "Como os itens ficam vinculados ao pedido?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 154,
+    "fields": {
+      "categoria": "Lógica de Negócio",
+      "tipo": "DI",
+      "enunciado": "Onde vocês colocaram as validações?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 155,
+    "fields": {
+      "categoria": "Lógica de Negócio",
+      "tipo": "DI",
+      "enunciado": "Por que não colocar toda a lógica dentro do Template?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 156,
+    "fields": {
+      "categoria": "Lógica de Negócio",
+      "tipo": "DI",
+      "enunciado": "Como impedir cadastro de preço negativo?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 157,
+    "fields": {
+      "categoria": "Lógica de Negócio",
+      "tipo": "DI",
+      "enunciado": "Como impedir quantidade menor que 1?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 158,
+    "fields": {
+      "categoria": "Lógica de Negócio",
+      "tipo": "DI",
+      "enunciado": "Como validar campos obrigatórios?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 159,
+    "fields": {
+      "categoria": "Git",
+      "tipo": "DI",
+      "enunciado": "Quantos commits o projeto possui?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 160,
+    "fields": {
+      "categoria": "Git",
+      "tipo": "DI",
+      "enunciado": "Qual commit foi o mais importante?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 161,
+    "fields": {
+      "categoria": "Git",
+      "tipo": "DI",
+      "enunciado": "Como organizaram os commits?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 162,
+    "fields": {
+      "categoria": "Git",
+      "tipo": "DI",
+      "enunciado": "Utilizaram branches?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 163,
+    "fields": {
+      "categoria": "Git",
+      "tipo": "DI",
+      "enunciado": "Como resolveriam um conflito de merge?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 164,
+    "fields": {
+      "categoria": "Organização",
+      "tipo": "DI",
+      "enunciado": "Como organizaram as pastas?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 165,
+    "fields": {
+      "categoria": "Organização",
+      "tipo": "DI",
+      "enunciado": "Onde ficaram CSS e imagens?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 166,
+    "fields": {
+      "categoria": "Organização",
+      "tipo": "DI",
+      "enunciado": "Onde colocaram funções auxiliares?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 167,
+    "fields": {
+      "categoria": "Organização",
+      "tipo": "DI",
+      "enunciado": "Como evitaram duplicação de código?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 168,
+    "fields": {
+      "categoria": "Segurança",
+      "tipo": "DI",
+      "enunciado": "O que é CSRF?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 169,
+    "fields": {
+      "categoria": "Segurança",
+      "tipo": "DI",
+      "enunciado": "Para que serve {% csrf_token %}?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 170,
+    "fields": {
+      "categoria": "Segurança",
+      "tipo": "DI",
+      "enunciado": "O que acontece se remover esse token?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 171,
+    "fields": {
+      "categoria": "Segurança",
+      "tipo": "DI",
+      "enunciado": "Como o Django ajuda contra SQL Injection?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 172,
+    "fields": {
+      "categoria": "ORM",
+      "tipo": "DI",
+      "enunciado": "O que é o ORM do Django?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 173,
+    "fields": {
+      "categoria": "ORM",
+      "tipo": "DI",
+      "enunciado": "Como buscar todos os produtos?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 174,
+    "fields": {
+      "categoria": "ORM",
+      "tipo": "DI",
+      "enunciado": "Como buscar um produto pelo ID?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 175,
+    "fields": {
+      "categoria": "ORM",
+      "tipo": "DI",
+      "enunciado": "Como buscar produtos de uma categoria?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 176,
+    "fields": {
+      "categoria": "ORM",
+      "tipo": "DI",
+      "enunciado": "O que faz o método filter?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 177,
+    "fields": {
+      "categoria": "ORM",
+      "tipo": "DI",
+      "enunciado": "Qual a diferença entre filter e get?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 178,
+    "fields": {
+      "categoria": "Inteligência Artificial",
+      "tipo": "DI",
+      "enunciado": "Onde a IA foi utilizada?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 179,
+    "fields": {
+      "categoria": "Inteligência Artificial",
+      "tipo": "DI",
+      "enunciado": "Qual ferramenta foi utilizada?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 180,
+    "fields": {
+      "categoria": "Inteligência Artificial",
+      "tipo": "DI",
+      "enunciado": "A IA gerou código completo ou apenas auxiliou?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 181,
+    "fields": {
+      "categoria": "Inteligência Artificial",
+      "tipo": "DI",
+      "enunciado": "Como validaram o código gerado?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 182,
+    "fields": {
+      "categoria": "Inteligência Artificial",
+      "tipo": "DI",
+      "enunciado": "Houve alguma sugestão da IA que estava errada?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 183,
+    "fields": {
+      "categoria": "Inteligência Artificial",
+      "tipo": "DI",
+      "enunciado": "Como adaptaram o código gerado ao projeto?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 184,
+    "fields": {
+      "categoria": "Inteligência Artificial",
+      "tipo": "DI",
+      "enunciado": "Em quais partes a IA mais ajudou?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 185,
+    "fields": {
+      "categoria": "Inteligência Artificial",
+      "tipo": "DI",
+      "enunciado": "Em quais partes ela atrapalhou?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 186,
+    "fields": {
+      "categoria": "Inteligência Artificial",
+      "tipo": "DI",
+      "enunciado": "Como garantem que entendem o código produzido?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 187,
+    "fields": {
+      "categoria": "Dificuldades",
+      "tipo": "DI",
+      "enunciado": "Qual foi o maior problema encontrado?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 188,
+    "fields": {
+      "categoria": "Dificuldades",
+      "tipo": "DI",
+      "enunciado": "Qual erro levou mais tempo para resolver?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 189,
+    "fields": {
+      "categoria": "Dificuldades",
+      "tipo": "DI",
+      "enunciado": "Como descobriram a causa?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 190,
+    "fields": {
+      "categoria": "Dificuldades",
+      "tipo": "DI",
+      "enunciado": "O que aprenderam durante o desenvolvimento?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 191,
+    "fields": {
+      "categoria": "Dificuldades",
+      "tipo": "DI",
+      "enunciado": "Qual parte foi mais difícil: banco, Django ou HTML?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 192,
+    "fields": {
+      "categoria": "Qualidade",
+      "tipo": "DI",
+      "enunciado": "Como vocês avaliariam a qualidade do código?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 193,
+    "fields": {
+      "categoria": "Qualidade",
+      "tipo": "DI",
+      "enunciado": "Há código repetido?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 194,
+    "fields": {
+      "categoria": "Qualidade",
+      "tipo": "DI",
+      "enunciado": "Onde o projeto pode melhorar?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 195,
+    "fields": {
+      "categoria": "Qualidade",
+      "tipo": "DI",
+      "enunciado": "O que refatorariam hoje?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 196,
+    "fields": {
+      "categoria": "Avaliação da outra dupla",
+      "tipo": "DI",
+      "enunciado": "Quais foram os três problemas mais graves encontrados?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 197,
+    "fields": {
+      "categoria": "Avaliação da outra dupla",
+      "tipo": "DI",
+      "enunciado": "Houve algum problema de arquitetura?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 198,
+    "fields": {
+      "categoria": "Avaliação da outra dupla",
+      "tipo": "DI",
+      "enunciado": "Encontraram más práticas do Django?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 199,
+    "fields": {
+      "categoria": "Avaliação da outra dupla",
+      "tipo": "DI",
+      "enunciado": "O código estava organizado?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 200,
+    "fields": {
+      "categoria": "Avaliação da outra dupla",
+      "tipo": "DI",
+      "enunciado": "A análise foi baseada em opinião ou em boas práticas?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 201,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "Por que esse campo possui esse tipo?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 202,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "Se eu pedir para adicionar um campo \"marca\", onde você alteraria?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 203,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "Como faria uma busca por nome do produto?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 204,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "Como implementaria paginação?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 205,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "Como adicionaria upload de imagens?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 206,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "Como implementaria controle de estoque?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 207,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "Como impedir que dois usuários comprem o último item ao mesmo tempo?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 208,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "Como faria um carrinho persistente?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 209,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "Como transformaria esse projeto em uma API REST?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 210,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "O que acontece internamente quando executamos python manage.py runserver?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 211,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "Por que existe o arquivo manage.py?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 212,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "Qual a diferença entre settings.py e urls.py?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 213,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "Quando utilizar uma Class-Based View em vez de uma Function-Based View?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 214,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "Qual a diferença entre render(), redirect() e HttpResponse()?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 215,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "O que é um QuerySet?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 216,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "Qual a diferença entre select_related() e prefetch_related()?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 217,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "Como o Django implementa sessões de usuário?"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 218,
+    "fields": {
+      "categoria": "Aprofundamento",
+      "tipo": "DI",
+      "enunciado": "Como prepararia essa aplicação para um ambiente de produção?"
+    }
+  }
+]

@@ -1,0 +1,53 @@
+{% extends 'quiz/base_quiz.html' %}
+
+{% block conteudo %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <span class="text-muted">Aluno: {{ prova.aluno }}</span>
+    <span class="badge bg-secondary fs-6">Questão {{ item.ordem }} de {{ total }}</span>
+</div>
+
+<div class="progress mb-4" style="height: 8px;">
+    <div class="progress-bar" style="width: {% widthratio item.ordem total 100 %}%"></div>
+</div>
+
+<div class="card shadow-sm">
+    <div class="card-body p-4">
+        {% if item.questao.categoria %}
+            <span class="badge bg-info text-dark mb-2">{{ item.questao.categoria }}</span>
+        {% endif %}
+        <h5 class="card-title mb-4">{{ item.questao.enunciado }}</h5>
+
+        <form method="post">
+            {% csrf_token %}
+
+            {% if item.questao.tipo == 'ME' %}
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="resposta" value="A" id="alt_a" required>
+                    <label class="form-check-label" for="alt_a"><strong>A)</strong> {{ item.questao.alternativa_a }}</label>
+                </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="resposta" value="B" id="alt_b">
+                    <label class="form-check-label" for="alt_b"><strong>B)</strong> {{ item.questao.alternativa_b }}</label>
+                </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="resposta" value="C" id="alt_c">
+                    <label class="form-check-label" for="alt_c"><strong>C)</strong> {{ item.questao.alternativa_c }}</label>
+                </div>
+                <div class="form-check mb-4">
+                    <input class="form-check-input" type="radio" name="resposta" value="D" id="alt_d">
+                    <label class="form-check-label" for="alt_d"><strong>D)</strong> {{ item.questao.alternativa_d }}</label>
+                </div>
+            {% else %}
+                <div class="mb-4">
+                    <label for="resposta" class="form-label">Digite sua resposta:</label>
+                    <textarea class="form-control" name="resposta" id="resposta" rows="6" required></textarea>
+                </div>
+            {% endif %}
+
+            <button type="submit" class="btn btn-primary">
+                {% if item.ordem == total %}Finalizar prova{% else %}Próxima questão{% endif %}
+            </button>
+        </form>
+    </div>
+</div>
+{% endblock %}

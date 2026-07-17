@@ -1,0 +1,167 @@
+[
+  {
+    "model": "quiz.questao",
+    "pk": 1,
+    "fields": {
+      "enunciado": "O que o comando 'python manage.py runserver' faz em um projeto Django?",
+      "alternativa_a": "Cria um novo projeto Django",
+      "alternativa_b": "Inicia o servidor de desenvolvimento",
+      "alternativa_c": "Aplica as migrações no banco de dados",
+      "alternativa_d": "Cria um novo app dentro do projeto"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 2,
+    "fields": {
+      "enunciado": "Em Django, qual arquivo define as tabelas do banco de dados de um app?",
+      "alternativa_a": "views.py",
+      "alternativa_b": "urls.py",
+      "alternativa_c": "models.py",
+      "alternativa_d": "admin.py"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 3,
+    "fields": {
+      "enunciado": "Qual comando cria as migrações a partir das alterações nos models?",
+      "alternativa_a": "python manage.py makemigrations",
+      "alternativa_b": "python manage.py migrate",
+      "alternativa_c": "python manage.py startapp",
+      "alternativa_d": "python manage.py createsuperuser"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 4,
+    "fields": {
+      "enunciado": "No padrão MTV do Django, a letra 'T' representa o quê?",
+      "alternativa_a": "Table",
+      "alternativa_b": "Test",
+      "alternativa_c": "Type",
+      "alternativa_d": "Template"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 5,
+    "fields": {
+      "enunciado": "Qual método HTTP é normalmente usado para enviar dados de um formulário que altera o banco?",
+      "alternativa_a": "GET",
+      "alternativa_b": "POST",
+      "alternativa_c": "DELETE",
+      "alternativa_d": "HEAD"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 6,
+    "fields": {
+      "enunciado": "Em Python, qual é o resultado de 10 % 3?",
+      "alternativa_a": "1",
+      "alternativa_b": "3",
+      "alternativa_c": "0",
+      "alternativa_d": "3.33"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 7,
+    "fields": {
+      "enunciado": "Qual estrutura Python é usada para repetir um bloco de código para cada item de uma lista?",
+      "alternativa_a": "if / else",
+      "alternativa_b": "try / except",
+      "alternativa_c": "for",
+      "alternativa_d": "def"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 8,
+    "fields": {
+      "enunciado": "Em Django, o que a função render() faz?",
+      "alternativa_a": "Salva um registro no banco de dados",
+      "alternativa_b": "Redireciona o usuário para outra URL",
+      "alternativa_c": "Cria uma nova migração",
+      "alternativa_d": "Combina um template com um contexto e devolve a página HTML"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 9,
+    "fields": {
+      "enunciado": "Qual tag do Django template exibe o valor de uma variável chamada nome?",
+      "alternativa_a": "{% nome %}",
+      "alternativa_b": "{{ nome }}",
+      "alternativa_c": "[[ nome ]]",
+      "alternativa_d": "(( nome ))"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 10,
+    "fields": {
+      "enunciado": "O que o ORM do Django permite fazer?",
+      "alternativa_a": "Acessar o banco de dados usando objetos Python, sem escrever SQL",
+      "alternativa_b": "Estilizar as páginas HTML",
+      "alternativa_c": "Criar rotas de URL automaticamente",
+      "alternativa_d": "Enviar e-mails para os usuários"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 11,
+    "fields": {
+      "enunciado": "Em Python, qual é a forma correta de criar uma função?",
+      "alternativa_a": "function minha_funcao():",
+      "alternativa_b": "create minha_funcao():",
+      "alternativa_c": "def minha_funcao():",
+      "alternativa_d": "func minha_funcao():"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 12,
+    "fields": {
+      "enunciado": "Qual código de status HTTP indica que a página não foi encontrada?",
+      "alternativa_a": "200",
+      "alternativa_b": "301",
+      "alternativa_c": "500",
+      "alternativa_d": "404"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 13,
+    "fields": {
+      "enunciado": "No Django, para que serve o arquivo urls.py?",
+      "alternativa_a": "Definir os estilos CSS do site",
+      "alternativa_b": "Mapear os endereços (rotas) para as views",
+      "alternativa_c": "Guardar as senhas dos usuários",
+      "alternativa_d": "Configurar o banco de dados"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 14,
+    "fields": {
+      "enunciado": "Em Python, o que o método append() faz em uma lista?",
+      "alternativa_a": "Adiciona um item no final da lista",
+      "alternativa_b": "Remove o último item da lista",
+      "alternativa_c": "Ordena a lista",
+      "alternativa_d": "Limpa todos os itens da lista"
+    }
+  },
+  {
+    "model": "quiz.questao",
+    "pk": 15,
+    "fields": {
+      "enunciado": "Qual comando cria um usuário administrador para acessar o Django Admin?",
+      "alternativa_a": "python manage.py adduser",
+      "alternativa_b": "python manage.py newadmin",
+      "alternativa_c": "python manage.py createsuperuser",
+      "alternativa_d": "python manage.py makeadmin"
+    }
+  }
+]
